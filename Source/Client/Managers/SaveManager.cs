@@ -121,7 +121,7 @@ namespace GameClient.Managers
                     });
 
                     RT_Dialog_Base.PushNewDialog(D2);
-                });
+                }, null, 40f);
 
             RT_Dialog_Base.PushNewDialog(dialog);
         }
